@@ -1,0 +1,23 @@
+# Local credentials and editor files
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Keep candidate materials and generated documents out of the skill repository
+/private/
+/resumes/
+/candidates/
+/attachments/
+/inputs/
+/outputs/
+/.tmp/
+/.cache/
+*.pdf
+*.doc
+*.docx
+*.odt
+*.rtf

@@ -13,9 +13,9 @@
 
 由 **[开发者猫叔（CatCatUncle）](https://github.com/CatCatUncle)** 创建 · 推荐搭配 **[OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy)** 使用
 
-[快速开始](#快速开始) · [能帮你做什么](#能帮你做什么) · [作者与企业合作](#作者与企业合作)
+[快速开始](#快速开始) · [能帮你做什么](#能帮你做什么) · [Star 曲线](#star-曲线) · [作者与企业合作](#作者与企业合作)
 
-**企业 FDE 驻场 / Agent 落地 / 私有化部署：** [contact@aijentra.com](mailto:contact@aijentra.com?subject=resume-coach%20%7C%20Enterprise%20AI%20collaboration) · 微信：**`agi_smith`**
+**企业 FDE 驻场 / Agent 落地 / 私有化部署**： [contact@aijentra.com](mailto:contact@aijentra.com?subject=resume-coach%20%7C%20Enterprise%20AI%20collaboration) · 微信：**`agi_smith`**
 
 </div>
 
@@ -64,9 +64,15 @@
 
 ### 也可以这样开始
 
-- **只改一段：**“帮我把这个项目写清楚，别夸大我个人的贡献。”
-- **没有业绩数字：**“帮我找能核实的交付和证据，不要凑数字。”
-- **还没确定方向：**“这是我的经历和工作偏好，先帮我比较几个可能适合的岗位。”
+- **只改一段**：“帮我把这个项目写清楚，别夸大我个人的贡献。”
+- **没有业绩数字**：“帮我找能核实的交付和证据，不要凑数字。”
+- **还没确定方向**：“这是我的经历和工作偏好，先帮我比较几个可能适合的岗位。”
+
+## Star 曲线
+
+如果这个技能对你有帮助，欢迎给 [Resume Coach](https://github.com/CatCatUncle/resume-coach) 和 [OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy) 一起点 Star，支持开发者猫叔继续维护和更新。
+
+[![Resume Coach 与 OpenWorkBuddy 的 Star 增长曲线](https://api.star-history.com/svg?repos=CatCatUncle/resume-coach,CatCatUncle/openworkbuddy&type=Date)](https://star-history.com/#CatCatUncle/resume-coach&CatCatUncle/openworkbuddy&Date)
 
 ## 作者与企业合作
 
@@ -75,10 +81,10 @@
 > [!IMPORTANT]
 > ### 承接企业 FDE 驻场与 AI Agent 落地项目
 >
-> - **FDE 驻场工程：**把 Agent 从演示做到实际上线、真正有人用。
-> - **企业私有化部署：**部署 OpenWorkBuddy 和适合企业环境的 Agent 工作流。
-> - **行业智能体与定制开发：**围绕真实业务流程设计、交付和迭代。
-> - **企业 AI 内训：**帮助团队学习使用、落地并维护自己的 AI 工作流。
+> - **FDE 驻场工程**：把 Agent 从演示做到实际上线、真正有人用。
+> - **企业私有化部署**：部署 OpenWorkBuddy 和适合企业环境的 Agent 工作流。
+> - **行业智能体与定制开发**：围绕真实业务流程设计、交付和迭代。
+> - **企业 AI 内训**：帮助团队学习使用、落地并维护自己的 AI 工作流。
 >
 > **商务邮箱：[contact@aijentra.com](mailto:contact@aijentra.com?subject=resume-coach%20%7C%20Enterprise%20AI%20collaboration)**
 >

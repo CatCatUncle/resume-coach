@@ -13,7 +13,7 @@
 
 Created by **[开发者猫叔 (CatCatUncle)](https://github.com/CatCatUncle)** · Recommended with **[OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy)**
 
-[Quick start](#quick-start) · [What you get](#what-you-get) · [Author & enterprise collaboration](#author-and-enterprise-collaboration)
+[Quick start](#quick-start) · [What you get](#what-you-get) · [Star history](#star-history) · [Author & enterprise collaboration](#author-and-enterprise-collaboration)
 
 **Enterprise FDE / Agent delivery / Private deployment:** [contact@aijentra.com](mailto:contact@aijentra.com?subject=resume-coach%20%7C%20Enterprise%20AI%20collaboration) · WeChat: **`agi_smith`**
 
@@ -68,6 +68,12 @@ The entry point is [`SKILL.md`](SKILL.md). Other compatible agents can use it fr
 - **One section:** “Make this project description clearer without overstating my contribution.”
 - **No reliable metrics:** “Help me describe the work using evidence I can confirm, without making up numbers.”
 - **Career direction:** “Here is my experience and my work preferences. Help me explore a few suitable roles.”
+
+## Star History
+
+If this skill helps, please star both [Resume Coach](https://github.com/CatCatUncle/resume-coach) and [OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy) to support continued development by 开发者猫叔.
+
+[![Star History Chart: Resume Coach and OpenWorkBuddy](https://api.star-history.com/svg?repos=CatCatUncle/resume-coach,CatCatUncle/openworkbuddy&type=Date)](https://star-history.com/#CatCatUncle/resume-coach&CatCatUncle/openworkbuddy&Date)
 
 ## Author and enterprise collaboration
 

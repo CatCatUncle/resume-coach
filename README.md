@@ -1,73 +1,109 @@
+<div align="center">
+
 # Resume Coach
 
-English | [简体中文](README.zh-CN.md)
+**Turn real experience into a clear, role-focused resume — with a coach that helps you get started.**
 
-A beginner-friendly resume writing and job-search coaching skill for Developer CatCatUncle and his followers. It helps people turn real experience into a clear, role-focused resume and prepare to discuss that experience in interviews.
+[![Resume Coach stars](https://img.shields.io/github/stars/CatCatUncle/resume-coach?style=social)](https://github.com/CatCatUncle/resume-coach/stargazers)
+[![OpenWorkBuddy stars](https://img.shields.io/github/stars/CatCatUncle/openworkbuddy?style=social&label=OpenWorkBuddy%20stars)](https://github.com/CatCatUncle/openworkbuddy/stargazers)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-7C5CFC)](SKILL.md)
 
-## Start in one message
+**English** · [简体中文](README.zh-CN.md)
 
-Users do not need a polished resume or a long intake form. They can paste a resume, send rough notes, or start with one experience.
+Created by **[开发者猫叔 (CatCatUncle)](https://github.com/CatCatUncle)** · Recommended with **[OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy)**
 
-Try one of these prompts:
+[Quick start](#quick-start) · [What you get](#what-you-get) · [Author & enterprise collaboration](#author-and-enterprise-collaboration)
 
-- **Edit my resume:** “Help me improve my resume for an operations role. Here are my resume and the job description.”
-- **Write from scratch:** “I need my first resume for a customer service role. I have worked as a restaurant cashier and helped with scheduling.”
-- **Change careers:** “I have taught for five years and want to move into product operations. Help me identify relevant experience.”
-- **Explore roles:** “Here is my experience. I prefer roles without frequent travel. Help me explore suitable job directions.”
-- **Fix one section:** “Make this project description clearer without overstating my contribution.”
+**Enterprise FDE / Agent delivery / Private deployment:** [contact@aijentra.com](mailto:contact@aijentra.com?subject=resume-coach%20%7C%20Enterprise%20AI%20collaboration) · WeChat: **`agi_smith`**
 
-The skill asks only a few short questions at a time, starts with available information, and marks unknown facts for confirmation.
+</div>
 
-## What it does
+> [!IMPORTANT]
+> ### Recommended: use it with [OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy)
+>
+> **[OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy)** is a local-first, open-source AI office agent by **[开发者猫叔](https://github.com/CatCatUncle)**. It works with local files, different model providers and reusable skills, and can produce editable office documents, presentations and web pages.
+>
+> Install Resume Coach in its `skills/` directory, share your resume or rough notes and a target job description, and work through the edits in conversation. You can start from one experience; no long intake form is required.
+>
+> **[Explore OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy) · [Download the app](https://github.com/CatCatUncle/openworkbuddy/releases/latest) · [Visit the project site](https://catcatuncle.github.io/openworkbuddy/?utm_source=resume-coach&utm_medium=readme&utm_campaign=skill_referral)**
 
-- Reviews, edits, or writes a resume from scratch
-- Tailors resume content to a real job description
-- Helps new graduates and career changers find relevant, truthful evidence
-- Separates direct matches, transferable evidence, real gaps, and unknowns
-- Prepares interview stories and one practical next step when useful
+> [!TIP]
+> **Found this useful? Star both [Resume Coach](https://github.com/CatCatUncle/resume-coach) and [OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy), and [follow 开发者猫叔](https://github.com/CatCatUncle)** for more practical AI tools and agent workflows.
 
-## Recommended: Use with OpenWorkBuddy
+## Quick start
 
-This skill works as a standalone agent skill. For a local, file-based workflow, use it with [OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy), an open-source, local-first AI office agent that can turn a request into editable work files and connect to different model providers and MCP tools.
+1. Install or launch [OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy/blob/main/README.en.md#quick-start) and connect a model.
+2. From your OpenWorkBuddy project directory, install the skill:
 
-If you have cloned OpenWorkBuddy, run this command from its project directory:
+   ```bash
+   git clone https://github.com/CatCatUncle/resume-coach.git skills/resume-coach
+   ```
 
-```bash
-git clone https://github.com/CatCatUncle/resume-coach.git skills/resume-coach
-```
+3. Refresh the skill list, choose `/resume-coach`, and send a request such as:
 
-The skill entry point is `SKILL.md`. Refresh the skill list and start with `/resume-coach`. You can then provide a resume and a job description, or simply describe one experience in your own words. The skill will guide you through the next few questions instead of asking you to complete a long form first.
+   ```text
+   Help me improve my resume for an operations role.
+   Here are my resume and the job description.
+   Start with the three most important changes. Do not invent facts;
+   mark anything you need me to confirm.
+   ```
 
-OpenWorkBuddy is designed to run locally, but data handling also depends on the model and connectors you configure. Review those settings before sharing sensitive resume information. Personal non-commercial use is free; commercial use requires a separate license. See the [OpenWorkBuddy repository](https://github.com/CatCatUncle/openworkbuddy) for the current terms and setup instructions.
+No resume yet? Start with rough notes about one job, project or school experience. The coach asks a few questions at a time and works with what you already have.
 
-👉 **Try OpenWorkBuddy:** [GitHub repository](https://github.com/CatCatUncle/openworkbuddy) · [Project page](https://catcatuncle.github.io/openworkbuddy/)
+The entry point is [`SKILL.md`](SKILL.md). Other compatible agents can use it from their own skill directories; OpenWorkBuddy is the recommended host, not a requirement.
 
-## About the Author
+## What you get
 
-Created by **开发者猫叔 (CatCatUncle)**, creator of OpenWorkBuddy, focused on practical AI agent workflows.
+| Need | How the skill helps |
+|---|---|
+| Improve a resume | Prioritizes the most important changes and rewrites unclear sections |
+| Write from scratch | Turns confirmed experience into a draft without requiring a long form |
+| Apply to a specific role | Maps a real job description to evidence, transferable experience and gaps |
+| Change careers | Finds relevant past experience without overstating qualifications |
+| Prepare for interviews | Builds stories you can explain and flags facts that still need checking |
 
-- GitHub: [@CatCatUncle](https://github.com/CatCatUncle)
-- OpenWorkBuddy: [github.com/CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy)
-- Enterprise AI and Agent collaboration: [contact@aijentra.com](mailto:contact@aijentra.com)
+### More ways to start
 
-If this skill helps you, give [OpenWorkBuddy a star](https://github.com/CatCatUncle/openworkbuddy) and share it with someone who is job hunting.
+- **One section:** “Make this project description clearer without overstating my contribution.”
+- **No reliable metrics:** “Help me describe the work using evidence I can confirm, without making up numbers.”
+- **Career direction:** “Here is my experience and my work preferences. Help me explore a few suitable roles.”
+
+## Author and enterprise collaboration
+
+**[开发者猫叔 (CatCatUncle)](https://github.com/CatCatUncle)** creates [OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy) and practical AI agent tools. Follow the [GitHub profile](https://github.com/CatCatUncle) for more open-source projects and updates.
+
+> [!IMPORTANT]
+> ### Enterprise FDE and AI Agent delivery
+>
+> - **FDE on-site engineering:** help teams take agent workflows from a demo into production.
+> - **Private / on-prem deployment:** deploy OpenWorkBuddy and agent workflows for enterprise environments.
+> - **Industry agents and custom development:** build workflows around actual business processes.
+> - **Corporate AI training:** help teams learn, adopt and maintain their AI workflows.
+>
+> **Email: [contact@aijentra.com](mailto:contact@aijentra.com?subject=resume-coach%20%7C%20Enterprise%20AI%20collaboration)**
+>
+> **WeChat: `agi_smith`** — mention **“resume-coach”** and your use case when reaching out.
+
+**[⭐ Star OpenWorkBuddy](https://github.com/CatCatUncle/openworkbuddy) · [⭐ Star Resume Coach](https://github.com/CatCatUncle/resume-coach) · [Follow 开发者猫叔](https://github.com/CatCatUncle)**
 
 ## Trust and privacy
 
-- Never invent experience, skills, credentials, metrics, or outcomes.
-- Do not exaggerate individual ownership of team results.
-- Use metrics only when the candidate confirms their source and meaning.
-- Never promise ATS passage, interviews, salary, or an offer.
-- Keep each person's resume information separate.
-- Keep real resumes, candidate records, and generated documents outside this repository.
-- Get explicit consent and anonymize thoroughly before using a follower's resume in public content.
+- Never invent experience, skills, credentials, metrics or outcomes; confirm uncertain facts with the candidate.
+- Represent each person's actual contribution and keep different candidates' information separate.
+- Never promise ATS passage, interviews, salary or an offer.
+- Keep real resumes, candidate records and generated documents outside this repository. Public examples require explicit consent and thorough anonymization.
+- A local app may still use cloud models or connectors. Check your chosen provider and data settings before sharing sensitive information.
 
 ## License
 
-This skill is licensed under the MIT License. It is an independently written skill and is separately licensed from the OpenWorkBuddy application. See [LICENSE](./LICENSE).
+**This skill is MIT-licensed**, including commercial use under the [MIT License](LICENSE). OpenWorkBuddy is a separate application with its [own licensing terms](https://github.com/CatCatUncle/openworkbuddy/blob/main/COMMERCIAL-LICENSE.md). For enterprise licensing or delivery work, contact the author above.
 
-## Research references
+<details>
+<summary>Research references and acknowledgements</summary>
 
 The skill was informed by guidance from [Yale OCS](https://ocs.yale.edu/resources/writing-impactful-resume-bullets/), [Harvard FAS](https://careerservices.fas.harvard.edu/blog/2026/09/15/resumes-for-industry-grad-student-edition-2026/), [MIT CAPD](https://capd.mit.edu/resources/career-toolkit-crafting-an-effective-resume/), [UC Berkeley Career Engagement](https://www.career.berkeley.edu/prepare-for-success/resumes/), China's [Employment Training and Technical Instruction Center](https://chinajob.mohrss.gov.cn/h5/c/2021-11-23/331916.shtml), and [Greenhouse's resume parsing guidance](https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse). These recommendations vary by market and system; the skill treats them as guidance, not universal rules.
 
 The skill also reviewed [WonderCV's resume guide](https://github.com/WonderCV-com/resume-guide) for its topic taxonomy. Its repository is licensed under [CC BY-SA 4.0](https://github.com/WonderCV-com/resume-guide/blob/main/LICENSE). This skill uses high-level methods and does not copy article passages or example metrics. Any specific text reuse must comply with that license.
+
+</details>
